@@ -79,6 +79,11 @@ inputBox.addEventListener('input', () => {
     updateParagraph();
 });
 
+paragraphEl.addEventListener('click', () => {
+    inputBox.focus();
+});
+
+
 inputBox.addEventListener('focus', () => {
     if (!timer) startTimer();
 });
