@@ -1,12 +1,11 @@
-const paragraphs = [
-    "The quick brown fox jumps over the lazy dog. It was a bright cold day in April, and the clocks were striking thirteen. She sells seashells by the seashore.",
-    "Typing speed is an essential skill in the modern world. Practice regularly to improve your accuracy and speed. Make sure to use proper finger placement.",
-    "A journey of a thousand miles begins with a single step. Keep practicing every day to make steady progress. Persistence always pays off in the end.",
-    "Technology has changed the way we communicate and work. The internet connects people across the globe, making information readily available.",
-    "In a world where every second counts, typing fast and accurately can save time. Focus on learning proper techniques and avoiding bad habits.",
-    "Success in typing tests requires both speed and precision. Challenge yourself to improve daily by taking timed tests and analyzing your errors.",
-    "The art of typing involves muscle memory and concentration. Stay relaxed and focused to avoid mistakes and boost your typing efficiency.",
-    "Consistency and dedication are key to mastering typing. Set achievable goals, and celebrate small victories to stay motivated.",
-    "The rain in Spain stays mainly in the plain. This famous sentence helps typists practice their accuracy with common words and phrases.",
-    "Speed comes with confidence, and confidence comes with practice. Never give up on improving your typing skills—every effort matters."
-  ];
+
+  const paragraphs = [
+    "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+   "Consectetur adipiscing elit. Consectetur adipiscing elit. Lorem ipsum dolor sit amet. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Consectetur adipiscing elit.",
+   "Lorem ipsum is a type of dummy textual content that is typically used in the layout and publishing industries. It is used as a placeholder for content as a way to sooner or later be replaced with actual textual content. Lorem ipsum is derived from a scrambled version of a passage from the book “De finibus bonorum et malorum” by way of the Roman logician Cicero, written in 45 BC.",
+  "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit. Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  ]
+
+
+

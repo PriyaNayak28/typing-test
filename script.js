@@ -55,12 +55,35 @@ function updateParagraph() {
     });
 }
 
-// calculating result
+// calculate result 
 function calculateResults() {
     updateParagraph();  
-    const correctWords = inputBox.value.trim().split(' ').filter((word, index) => word === paragraphText.split(' ')[index]).length;
-    const wpm = Math.round((correctWords / 60) * 60);
-    resultEl.textContent = `WPM: ${wpm}`;
+    const correctWords = inputBox.value;
+    const paragraphArray = paragraphText.split(' ');
+        let paraLen = [];
+        let x = 0;
+        for (let i = 0; i < paragraphArray.length; i++) {
+            paraLen.push([x, x + paragraphArray[i].length]);
+            x += paragraphArray[i].length + 1;  
+        }
+
+        let correctArray = [];
+        for (let [start, end] of paraLen) {
+            correctArray.push(correctWords.slice(start, end));
+        }
+      
+        // Count how many words are correct
+        let count = 0;
+        for (let i = 0; i < correctArray.length; i++) {
+            if (correctArray[i] === paragraphArray[i]) {
+                count++;
+            }
+        }
+        console.log(count , "count")
+
+    const wpm = count
+    resultEl.textContent = ` Times Up!  WPM: ${wpm}`;
+   
 }
 
 // try again button
@@ -89,5 +112,3 @@ inputBox.addEventListener('focus', () => {
 });
 
 randomParagraph();
-
-
